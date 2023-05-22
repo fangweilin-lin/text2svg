@@ -12,6 +12,10 @@
     "directive",
     "image"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fangweilin-lin/text2svg"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
