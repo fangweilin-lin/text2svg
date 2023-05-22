@@ -1,13 +1,25 @@
 {
   "name": "text2svg",
   "version": "0.1.0",
-  "private": true,
+  "description": "一个将文字转为svg图片的vue插件/A VUE plugin that converts text into SVG images",
+  "main": "lib/text2svg.umd.min.js",
+  "author": "fangweilin",
+  "private": false,
+  "license": "MIT",
+  "keywords": [
+    "vue",
+    "javascript",
+    "directive",
+    "image"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "dist": "vue-cli-service build --target lib src/package/index.js --name text2svg --dest lib"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "lru-cache": "^4.1.5",
     "vue": "^2.6.11"
   },
   "devDependencies": {
