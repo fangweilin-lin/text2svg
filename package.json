@@ -1,5 +1,5 @@
 {
-  "name": "text2svg",
+  "name": "v-text2svg",
   "version": "0.1.0",
   "description": "一个将文字转为svg图片的vue插件/A VUE plugin that converts text into SVG images",
   "main": "lib/text2svg.umd.min.js",
