@@ -1,6 +1,6 @@
 ## v-text2svg
 
-一个将文字转为 svg 图片的 vue 插件
+一个将文字转为 svg 图片的 vue 插件/A Vue plugin that converts text into SVG images
 
 ## Install
 
