@@ -1,39 +1,38 @@
 {
-  "name": "v-text2svg",
-  "version": "0.1.0",
-  "description": "一个将文字转为svg图片的vue插件/A VUE plugin that converts text into SVG images",
-  "main": "lib/text2svg.umd.min.js",
-  "author": "fangweilin",
-  "private": false,
-  "license": "MIT",
-  "keywords": [
-    "vue",
-    "javascript",
-    "directive",
-    "image"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/fangweilin-lin/text2svg"
-  },
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "dist": "vue-cli-service build --target lib src/package/index.js --name text2svg --dest lib"
-  },
-  "dependencies": {
-    "core-js": "^3.6.5",
-    "lru-cache": "^4.1.5",
-    "vue": "^2.6.11"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.13",
-    "@vue/cli-service": "~4.5.13",
-    "vue-template-compiler": "^2.6.11"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+    "name": "v-text2svg",
+    "version": "0.1.0",
+    "description": "一个将文字转为svg图片的vue插件/A VUE plugin that converts text into SVG images",
+    "main": "lib/text2svg.umd.min.js",
+    "author": "fangweilin",
+    "private": false,
+    "license": "MIT",
+    "keywords": [
+        "vue",
+        "javascript",
+        "directive",
+        "image"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fangweilin-lin/text2svg"
+    },
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "dist": "vue-cli-service build --target lib src/package/index.js --name text2svg --dest lib"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~4.5.13",
+        "@vue/cli-service": "~4.5.13",
+        "vue-template-compiler": "^2.6.11",
+        "core-js": "^3.6.5",
+        "lru-cache": "^4.1.5",
+        "vue": "^2.6.11"
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead"
+    ]
 }
